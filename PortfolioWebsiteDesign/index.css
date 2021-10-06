@@ -1,0 +1,402 @@
+@font-face {
+    font-family: poppins-bold;
+    src: url('Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: poppins-normal;
+    src: url('Poppins/Poppins-Regular.ttf');
+}
+
+
+*{
+    font-family: poppins-normal;
+}
+
+.header{
+    background-color: transparent;
+    
+}
+.body{
+    background-image: url('21.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main{
+    height: 70vh;
+    background-image: url('21.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-bar{
+    background-image: url('3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5vh;
+
+}
+
+.part2{
+    width: fit-content;
+}
+
+
+.first,.second{
+    font-size: 15px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.part3{
+    height: max-content;
+    text-align: center;
+}
+
+.skill-img{
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.part5{
+    background-color: turquoise;
+    height: max-content;
+    padding: 30px;
+    background-image: url(21.jpg);
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+}
+
+
+.overlay{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30vw;
+    
+
+}
+
+.services{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px ;
+    column-gap: 10px;
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    color: rgb(79, 77, 77);
+    border-radius: 20px;
+    
+    
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    
+}
+.serv-head{
+    font-size: medium;
+    font-family: poppins-bold;
+}
+.serv-para{
+    font-size: small;
+}
+.serv-icon{
+    justify-self: center;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    width: 20%;
+    top: 0;
+    height: 100%;
+    
+    
+
+}
+
+.part6{
+    background-image: url('5.jpg');
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-size: cover;
+    padding: 30px;
+    text-align: left;
+}
+
+.text6{
+    color: white;
+    font-size: 10px;
+}
+
+.talk-btn{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: poppins-bold;
+}
+
+
+.part7{
+    background-color: rgb(26, 26, 26) ;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cateogry{
+    background-color: rgb(26, 26, 26) ;
+    letter-spacing: 2px;
+    border-top: 2px solid orange;
+    width: 30%;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+}
+
+.para7{
+    color: gray;
+    font-size: 13px ;
+    text-align: center;
+}
+
+.head7{
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.icon7{
+    text-align: center;
+}
+
+
+.part8{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 2px;
+
+    margin-bottom: 100px;
+}
+
+
+
+.port{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mid{
+    background-color: black;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+
+}
+
+.head8,.para8{
+    font-size: 15px;
+    color: white;
+    
+
+}
+
+.data{
+    margin: auto;
+}
+
+.portline{
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.portsemi{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+    padding-top: 2px;
+}
+
+.part8-2{
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: auto auto auto auto auto;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 2px;
+
+   
+}
+
+.part9{
+    background-image: url('images/7.jpg');
+    background-size: cover;
+    padding-top: 60px;
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img{
+    margin: auto;
+    width: 15%;
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+.cardpara{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.card-name{
+    font-size: xx-large;
+}
+
+
+.inputs{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.form-input{
+    background-color: orange;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+
+}
+
+.form-btn{
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.contact{
+    background-color: black; 
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form{
+    width: 40%;
+    margin: auto;
+}
+
+
+
+
+@media screen and (max-width:600px){
+    .navigate{
+        display: none;
+    }
+    .first,.second{
+        font-size: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .img-bar{
+        justify-content: space-between;
+        text-align: center;
+        justify-items: center;
+    }
+    .skill-img{
+        width: 100%;
+        margin: auto;
+    }
+    .services{
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+
+    .part8{
+        grid-template-columns: auto auto;
+    }
+    .card-img{
+        width: 30vw;
+    }
+    .part9{
+        padding-top: 0px;
+        
+    }
+    .cardpara{
+        font-size: small;
+        margin-top: 20px;
+    }
+    .contact-form{
+        width: 70%;
+    }
+    .talk-btn{
+        font-size: 10px;
+        width: 100%;
+        padding: 5px
+    }
+
+    .para7{
+        font-size: 10px;
+    }
+    .head7{
+        font-size: 12px;
+    }
+    .cateogry{
+        width: 90%;
+    }
+
+
+}
