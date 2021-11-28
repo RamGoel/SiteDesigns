@@ -7,11 +7,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SiteDesigns</title>
   <link rel="stylesheet" href="index.css">
+  <style>
+    .card-1 {
+    width:fit-content;
+    height: fit-content;
+    position:relative;
+    box-shadow: 0.3px 0.4px 3px;
+    border-radius: 10px;
+  
+
+
+}
+
+.page-title{
+    color: white;
+    font-size: 125px;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.main-head{
+    text-align: center;
+    background-color:midnightblue;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title-p{
+    text-align: center;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.hover-txt{
+    font-size: 15px;
+    color: yellow;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin:40px;
+    row-gap: 30px;
+    column-gap: 30px;
+
+    
+}
+
+.card-1 img{
+  width: 600px;
+
+
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 10px;
+}
+
+.btn-card {
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+}
+
+.card-1:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .projects {
+       
+        grid-template-columns: auto;
+      
+       justify-items: center;
+    }
+}
+</style>
 </head>
 
 <body>
   <h1 class="main-head">WebsiteDesigns<span class="hover-txt">(Hover to see more)</span></h1>
-  <div class="projects container">
+  <div class="projects container ">
 
 
 
