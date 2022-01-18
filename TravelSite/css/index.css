@@ -1,0 +1,90 @@
+body{
+    font-family: 'verdana';
+    background: url('../images/im1234.png');
+    background-color: transparent;
+    font-size:15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainHolder{
+    z-index:1;
+    position: relative;
+}
+
+
+.navbar{
+    align-items:center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.mainHome{
+    height:470px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin:auto;
+    
+}
+
+.innerHome{
+    text-align: center;
+    align-items: center;
+}
+
+.searchInput{
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    border:none;
+    padding:5px;
+    margin:5px;
+}
+
+.overlay{
+    background-size: cover;
+    flex:1;
+    background-color: black;
+    width: 100vw;
+    opacity:40%;
+    height:100vh;
+    z-index: 0;
+    position: absolute;
+}
+.mainTitle{
+    font-weight:700;
+    text-align:center;
+    width:900px;
+    margin:auto;
+    font-size:60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.nav-link{
+    color: white;
+    opacity:80%
+}
+.logo{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .searchInput{
+        width: auto;
+    }
+    .mainTitle{
+        width: auto;
+        font-size:40px
+    }
+    .navbar{
+
+        justify-content: center;
+    }
+}
